@@ -12,8 +12,10 @@ Documentação da biblioteca: https://pypi.org/project/num2words/
 
 from num2words import num2words
 
-num = int(input('Digite um número: '))
+while(True):
+    num = int(input('Digite um número: '))
 
-num_extenso = num2words(num, lang='pt-BR')
+    num_extenso = num2words(num, lang='pt-BR')
 
-print(num_extenso)
+    print(num_extenso)
+    print('-------------------')
